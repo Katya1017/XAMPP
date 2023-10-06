@@ -29,6 +29,7 @@
      }
 
      $user = new User('Catherine');
+     $name ="Catherine";
      $article = new Article('title', 'text', $user);
      echo $article->getAuthor()->getName();    
 
